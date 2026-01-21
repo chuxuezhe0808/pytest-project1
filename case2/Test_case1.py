@@ -15,9 +15,11 @@ def test_1():
     # 测试代码
     print('第1条用例')
 
+
 def test_2(setup_and_teardown):
     # 测试代码
     print('第2条用例')
+
 
 class Test1:
 
@@ -28,3 +30,7 @@ class Test1:
     def test_4(self):
         # 测试代码
         print('第4条用例')
+
+    def test_5(self):
+        # 测试代码
+        print('第5条用例')

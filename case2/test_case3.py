@@ -16,12 +16,12 @@ class Test1name:
 
 class Test2name:
 
-    @pytest.mark.smoke
+    @pytest.mark.level2
     def test_21(self):
         print('第21条用例')
         assert 1 == 1
 
-    @pytest.mark.regression
+    @pytest.mark.level2
     def test_22(self):
         print('第22条用例')
         assert 1 == 1
